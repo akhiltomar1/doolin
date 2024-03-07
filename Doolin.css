@@ -1,0 +1,341 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+body{
+  font-family: montserrat;
+  }
+
+nav{
+  background: #f075f0;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #de6cd6;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #da47bc;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #ec76ec;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.col-1{
+flex basis: 40%;
+position: relative;
+left: 10%;
+}
+
+.col-2{
+position: relative;
+flex basis: 60%;
+padding-left: 25vh;
+display: flex;
+
+}
+
+.col-3{
+flex basis: 80%;
+position: relative;
+display: flex;
+align-items: left;
+padding-left: 10%;
+}
+
+.headname{
+color: rgb(0, 0, 0);
+position: relative;
+padding-bottom: 15px;
+font-size: 80px;
+transition: 0.3s ease-in-out;
+font-family: 'Work Sans', sans-serif;
+}
+
+.headname:hover{
+transition: 0.7s ease-in-out;	
+transform: translateX(40px);
+}
+
+.video{
+position: relative;
+
+}
+
+.projectimage1{
+	position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.oneimage:hover{
+transform: scale(1.15);
+transition: 0.3s ease-in-out;
+}
+
+.oneimage{
+	position: relative;
+height: 350px;
+width: 350;
+  padding-right: 100px;
+}
+
+.one2{
+	position: relative;
+	background: #f075f0;
+color: rgb(31, 8, 37);
+padding: 25px;
+font-size: 30px;
+}
+
+.consulting{
+text-transform: capitalize;
+text-decoration: underline;
+}
+
+.logoimage{
+	height: 220px;
+	width: 300px;
+   position: relative;
+   padding-bottom: 20px;
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+}
+
+.logoimage:hover{
+transform: scale(1.15);
+transition: 0.3s ease-in-out;
+}
+
+.text{
+  position: relative;
+	text-transform: capitalize;
+	color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+.projectimage{
+	position: relative;
+height: 400px;
+width: 400px;
+}
+
+.row-2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+
+}
+
+.col1{
+  padding-left: 30px;
+flex basis: 40%;
+position: relative;
+
+}
+
+.col2{
+position: relative;
+padding-left: 30px;
+flex basis: 60%;
+align-items: center;
+text-align: left;
+}
+
+.col3{
+position: relative;
+padding-left: 30px;
+padding-right: 35px;
+flex basis: 80%;
+align-items: center;
+}
+
+.row-3{
+
+  display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f075f0;
+}
+
+
+.about{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+
+.aboutimage{
+	position: relative;
+height: 250px;
+width: 250px;
+border-radius: 50%;
+}
+
+.bio{
+position: relative;
+font-size: 20px;
+
+}
+
+footer {
+	padding: 20px;
+	position: relative;
+  background: #140b11;
+  text-align: center;
+  color: #5a535b;
+}
+
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social{
+  color: rgb(248, 4, 4);
+	display: inline;
+	position: relative;
+	border: 50px;
+  padding-left: 50px;
+  
+}
+
+
+@media (max-width: 840px){
+.row{
+
+flex-direction: column; 
+margin:50px;  
+}  
+
+.col-2{
+flex-basis: 100%;
+margin-bottom: 50px;
+
+}
+ 
+.col-1{
+flex-basis: 100%; 
+}
+
+.col-3{
+flex-basis: 100%;  
+}  
+ 
+.row-2{
+
+flex-direction: column; 
+margin:50px;  
+}  
+
+.col2{
+flex-basis: 100%;
+margin-bottom: 50px;
+
+}
+ 
+.col1{
+flex-basis: 100%; 
+}
+
+.col3{
+flex-basis: 100%;  
+}  
+ 
+.row-3{
+
+  flex-direction: column; 
+  margin:50px;  
+  } 
+
+  }
+
+

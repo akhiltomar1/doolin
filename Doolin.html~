@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Doolin.</title>
+    <link rel="icon" href='./logo.png'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+   </head>
+  
+  <body>
+   <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Welcome!</label>
+      <ul>
+        <li><a href="#projectsection">Projects</a></li>
+        <li><a href="#aboutsection">About</a></li>
+        <li><a href="#footersection">Contact</a></li>
+      </ul>
+    </nav>
+    
+<div class="row">
+
+<div class="col-1">
+<h1 class="headname">Doolin.</h1>
+<img src="./logo.png" class="logoimage" alt="logo">
+<h2 class="one1"> Branding + Packaging </h2>	
+</div>
+   
+<div class="col-2">
+<video controls height="500px" width="300px" loop autoplay muted poster="./drink valley.jpg">
+<source src="./DrinkValley.mov">
+</video>
+</div>
+
+
+<div class="col-3">
+<a href="https://www.behance.net/gallery/135780593/Drink-Valley" target="_blank">
+<img src="./Drinkvalley.jpg" class="oneimage" alt="logo"></a>
+</div>
+</div>
+
+<div class="one2">
+
+  <a name="projectsection"></a>
+<h2>Doolin ! Never heard of us?</h2>
+<p> We are elevating change seeking brands in the food & drink industry through Intentional Design</p>
+<p> Basically, we are a <span class="consulting">consulting agency</span> </p>
+<p>Lets Look at a few of our projects-</p>
+
+</div>
+
+
+
+<div class="row-2">
+<div class="col1">
+<a href="https://www.behance.net/gallery/134823807/Aglet-Branding-a-Mental-Health-Services?utm_campaign=later-linkinbio-letsdoolin&utm_content=later-24196692&utm_medium=social&utm_source=linkin.bio" target="_blank">
+<img src="./aglet.jpg" class="projectimage" alt="logo" /></a>
+
+<div class="text">
+  Seeing the steady increase in mental health problems,
+  Aglet a group of psychological mental health
+  researchers build an online portal to connect directly to individuals
+  to the nearest and professional psysiatrists and doctors. The goal
+  is to increase awareness about mental health problems and make it
+  a common talk in society, especially for the youngsters.
+  The logo is a simple rectangle with the letter A in negative.
+</div>
+</div>
+
+<div class="col2">
+  <a href="https://www.behance.net/gallery/137760997/Surely-Nut-Branding-and-Packaging?utm_campaign=later-linkinbio-letsdoolin&utm_content=later-24741277&utm_medium=social&utm_source=linkin.bio" target="_blank">
+<img src="./surelynut.jpg" class="projectimage" alt="logo" /></a>
+<div class="text">
+  Surely Nut is a UK based Peanut Butter brand with
+  a taste like no other. The business was formed by 4 friends with
+  their love for Peanut Butter. They've been recognised for their
+  unique flavours combined with pean#letsdoolin
+  Surely Nut strongly believes in sharing and therefore their tagline,
+  'Made to share' is about sharing their products and enjoying their
+  unique peanut butter together.
+  The brand concept was to create a brand that is bold and
+  energetic, to be unique from the market and not use any peanut
+  references in the identity and packaging design
+</div>
+</div>
+
+
+<div class="col3"><a href="https://www.behance.net/gallery/134371881/Gurham-Logo-Design?utm_campaign=later-linkinbio-letsdoolin&utm_content=later-24196695&utm_medium=social&utm_source=linkin.bio" target="_blank">
+<img src="./gurham.jpg" class="projectimage" alt="logo" /></a>
+<div class="text">
+  Gurham is a group of partners who think architecture is
+  more than just design and materials but it has the power to bring
+  people closer while also helping nature.
+  The objective of the project was to design a logo for the brand that
+  is unique and helps it differentiate in the market while expressing
+  the brand attributes. So we just did that.
+</div>
+</div>
+</div>
+
+
+<div class="row-3">
+<div class="about">
+<img src="./jason.jpg" class="aboutimage" alt="Profile">
+</div>
+
+<div class="bio">
+  <a name="aboutsection"></a>
+Hi! I'm Jason Pinto . I am 19 years old. I am the founder of Doolin.
+I started Doolin on 1st Jan 2022. I am so excited to launch and open doors to 
+my own branding and design business<a href="https://www.instagram.com/letsdoolin/" target="_blank">@letsdoolin</a>
+.It's a dream come through since I have been thinking about this
+moment for the last 1 and a half years and it's finally here.
+I am very grateful to <a href="https://www.instagram.com/scdbalajiart/" target="_blank"> @scdbalajiart </a> and the 
+<a href="https://www.instagram.com/artpreneurprogram/" target="_blank"> @artpreneurprogram</a>
+team for teaching and guiding me through this journey and
+continuing to support me in this new journey. I am also very
+thankful for <a href="https://www.instagram.com/vinodhini_n_durai/" target="_blank"> @vinodhini_n_durai </a> my co-educator for encouraging
+and pushing me so I can do things beyond my imagination. I am
+foremost grateful to my family and friends for their love and
+support.For more, this is my instagram : <a href="https://www.instagram.com/mejasonpinto/" target="_blank"> @mejasonpinto </a>
+</div>
+</div>
+
+
+<footer class="footer">
+<div class="social">
+  <a name="footersection"></a>
+          <a href="#">Home</a>
+          <a href="https://www.instagram.com/letsdoolin/" target="_blank">Instagram</a>
+          <a href="mailto:choureonkar9@gmail.com" target="_blank">Mail</a>
+          <a href="https://www.behance.net/letsdoolin" target="_blank">Behance</a>
+</div>
+</footer>
+</body>
+</html>
